@@ -109,11 +109,6 @@ original training-loop pseudocode — are in [`docs/ppo.md`](docs/ppo.md).
 Captured during the hackathon and reproduced exactly as recorded. No additional experiments
 have been run.
 
-### Baseline vs. Improved Reward
-
-![Baseline versus improved reward function](results/reward-function-baseline-vs-improved.png)
-
-The one-line cost-only baseline next to the multi-objective reward that replaced it.
 
 ### Reported Results
 
