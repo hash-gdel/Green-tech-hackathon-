@@ -155,18 +155,17 @@ The project placed **3rd**.
 ```
 .
 ├── README.md
-├── requirements.txt
-├── LICENSE-TO-CHOOSE.md          # license not yet chosen — see file
+├── requirements.txt          
 ├── src/
 │   ├── __init__.py
-│   ├── ppo_agent.py              # ActorCritic + PPOAgent (clipped objective, value loss, entropy)
-│   └── reward_functions.py       # baseline + improved reward, recovered from the hackathon screenshot
+│   ├── ppo_agent.py              
+│   └── reward_functions.py       
 ├── incomplete/
-│   ├── README.md                 # what is missing and why
-│   └── environment_step.py       # env step() fragment, NOT runnable
+│   ├── README.md                
+│   └── environment_step.py       
 ├── docs/
-│   ├── ppo.md                    # PPO implementation notes + original pseudocode
-│   └── reward-design.md          # reward terms, weights, provenance
+│   ├── ppo.md                   
+│   └── reward-design.md         
 ├── results/
 │   ├── reward-function-baseline-vs-improved.png
 │   ├── training-and-evaluation-output.png
@@ -174,8 +173,7 @@ The project placed **3rd**.
 ├── demo/
 │   └── README.md
 └── tests/
-    └── test_smoke.py             # import + one real PPO update on synthetic data
-```
+    └── test_smoke.py             
 
 ## Installation
 
