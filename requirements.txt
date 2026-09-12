@@ -1,0 +1,4 @@
+# Only PyTorch is imported anywhere in this repository (src/ppo_agent.py).
+# src/reward_functions.py is pure Python and needs nothing.
+# Left unpinned because no version-specific API is used; developed against 2.x.
+torch>=2.0
